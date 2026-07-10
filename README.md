@@ -145,9 +145,10 @@ Includes diagrams and implementation guidance.
 
 ### LLM Clients
 Starter Python integrations for:
-- Azure OpenAI (Copilot-style)
+- Azure OpenAI (Copilot)
 - Gemini
-- Claude  
+- Claude
+- OpenAI
 
 Designed for:
 - Consistency  
