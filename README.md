@@ -216,14 +216,15 @@ cp .env.example .env
 
 Add your API keys:
 ```bash
-# GeminiGOOGLE_API_KEY=
+# GOOGLE_API_KEY=your_gemini_api_key_here
 
-# ClaudeANTHROPIC_API_KEY=
+# ANTHROPIC_API_KEY=your_anthropic_api_key_here
 
 # Azure OpenAI (Copilot-style)
-AZURE_OPENAI_API_KEY=
-AZURE_OPENAI_ENDPOINT=
-AZURE_OPENAI_DEPLOYMENT_NAME=
+AZURE_OPENAI_API_KEY=your_azure_openai_api_key_here
+AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
+AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name_here
+AZURE_OPENAI_API_VERSION=2024-05-01-preview
 ```
 ### 5. Start Using AI Clients
 Example:
