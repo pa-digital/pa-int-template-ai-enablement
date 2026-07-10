@@ -4,7 +4,7 @@ A full‑featured AI enablement template designed to accelerate responsible adop
 This repository provides a **practical toolkit** combining:
 - Standardised prompt engineering patterns  
 - Reusable use cases and playbooks  
-- Multi-model AI integration (Gemini, Claude, Copilot-style)  
+- Multi-model AI integration (Gemini, Claude, Copilot)  
 - Governance guardrails and best practices  
 - Starter architecture and implementation patterns  
 
@@ -70,6 +70,9 @@ template-ai-enablement/
 │
 ├── llm-clients/
 │   └── python/
+│       ├── copilot_client.py
+│       ├── gemini_client.py
+│       ├── claude_client.py
 │       └── openai_client.py
 │
 ├── rag/
